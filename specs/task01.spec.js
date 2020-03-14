@@ -11,7 +11,6 @@ describe("Functional Test #start_test", function() {
         if (err) return done(err);
         assert.equal(res.status, 200);
         done();
-        process.exit();
       });
   });
 });
