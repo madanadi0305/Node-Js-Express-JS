@@ -7,7 +7,7 @@ describe("Functional Test #start_test", function() {
     request(app)
       .post("/signup")
       .set("Accept", "application/json")
-      .send({ name: "johnny sins", email: "js@sick.com", password: "123" })
+      .send({ name: "johnny bhayia", email: "js@sick.com", password: "123" })
       .end(function(err, res) {
         if (err) return done(err);
         assert.equal(res.status, 200);
