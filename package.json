@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node ./src/app.js & lt -p 4000",
+    "start": "node ./src/app.js",
     "test": "node_modules/.bin/mocha specs/*.spec.js",
     "test01": "mocha ./specs/task01.spec.js",
     "test02": "mocha ./specs/task02.spec.js",
