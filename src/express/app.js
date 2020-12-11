@@ -24,7 +24,7 @@ app.use("/", mainRoutes);
 }
 router.route("/").get(home);
 app.use("/", home);*/
-app.set("port", process.env.PORT || 4000);
+app.set("port", process.env.PORT || 5000);
 app.listen(app.get("port"), () => {
   //Line10
   console.log("Application running in port: " + app.get("port"));
