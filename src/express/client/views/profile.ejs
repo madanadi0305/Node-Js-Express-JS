@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+<head>
+       
+    <meta charset="UTF-8" />
+        <title></title>
+      </head>
+ 
+
+<body>
+        <h1>Profile</h1>
+
+        <% if(user) {%> //Line1
+        <hidden style="display:none;"><%= msg %></hidden> //Line2
+        <h2>Hello <%= user %></h2>
+        //Line3 <% } %>
+
+       
+    <script>
+        var msg1 = document.getElementsByTagName("hidden");
+        alert(msg1[0].innerHTML);
+    </script>
+      </body>
+
+</html>
